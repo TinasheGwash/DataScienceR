@@ -8,7 +8,6 @@ summary(bankdata)
 
 head(bankdata)
 
-
 sample_dataset <- sample(1:nrow(bankdata), 20, replace = FALSE)
 sample_dataset
 bankdata[sample_dataset,]
