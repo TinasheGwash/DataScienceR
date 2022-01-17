@@ -94,6 +94,7 @@ ggplot(data=diamonds, aes(x=carat)) +
   ylab("Count")
 
 
+
 ggplot(aes(x = price, color = cut), data = diamonds) +
   facet_wrap(~color, ncol = 3) + 
   geom_histogram() + 
